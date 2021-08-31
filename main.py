@@ -52,7 +52,7 @@ class Number(ABC):
         return ExtensionResultItem(
             icon=encoding.icon,
             name=payload,
-            description=encoding.__str__().capitalize(),
+            description=encoding.__str__().capitalize() + '; Copy to clipboard.',
             on_enter=CopyToClipboardAction(payload),
             on_alt_enter=CopyToClipboardAction(payload),
         )
