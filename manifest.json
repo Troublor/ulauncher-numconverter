@@ -1,0 +1,33 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Number Converter",
+  "description": "A number converter, supporting decimal, hexadecimal, and binary.",
+  "developer_name": "William Aaron Cheung, @Troublor",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kw_hex",
+      "type": "keyword",
+      "name": "Convert Hexadecimal Number",
+      "description": "Input a hexadecimal number and convert to decimal or binary.",
+      "default_value": "hex"
+    },
+    {
+      "id": "kw_bin",
+      "type": "keyword",
+      "name": "Convert Binary Number",
+      "description": "Input a binary number and convert to decimal or hexadecimal.",
+      "default_value": "bin"
+    },
+    {
+      "id": "kw_dec",
+      "type": "keyword",
+      "name": "Convert Decimal Number",
+      "description": "Input a decimal number and convert to hexadecimal or binary.",
+      "default_value": "dec"
+    }
+  ]
+}
